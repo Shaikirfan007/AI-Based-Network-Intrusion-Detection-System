@@ -1,19 +1,32 @@
+# AI-Based Network Intrusion Detection System
 
+This project implements an AI-based Network Intrusion Detection System using
+machine learning techniques to identify malicious network traffic.
 
-# 🛡️ AI-Based Network Intrusion Detection System (Student Project)
+The system analyzes network packets and classifies them as BENIGN or DDoS.
+The application is deployed using Hugging Face Spaces to demonstrate real-time
+intrusion detection results.
 
-This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (Grok)** to detect and explain network attacks (specifically DDoS).
+## Features
+- Detection of malicious network traffic
+- Machine learning-based classification
+- Web-based demo using Hugging Face Spaces
 
-## 🚀 How to Use
-1. **Enter API Key:** Paste your Grok API key in the sidebar (optional, for AI explanations).
-2. **Train Model:** Click the "Train AI Model" button. The system loads the `Friday-WorkingHours...` dataset automatically.
-3. **Simulate:** Click "Simulate Random Packet" to pick a real network packet from the test set.
-4. **Analyze:** See if the model flags it as **BENIGN** or **DDoS**, and ask Grok to explain why.
+## Technologies Used
+- Python
+- Machine Learning (Random Forest)
+- Streamlit
+- Hugging Face Spaces
+- GitHub
 
-## 📂 Files
-- `app.py`: The main Python application code.
-- `requirements.txt`: List of libraries used.
-- `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: The dataset (CIC-IDS2017 subset).
+## Dataset
+The dataset used in this project is a subset of the CIC-IDS2017 dataset
+(Friday-WorkingHours-Afternoon-DDos).
 
-## 🎓 About
-Created for a university cybersecurity project to demonstrate the integration of traditional ML and LLMs in security operations.
+Due to file size limitations, the dataset is not uploaded to this repository.
+The dataset was provided as part of the VOIS Internship Program and is referenced
+during model execution.
+
+## Note
+This project was completed as part of the VOIS and Vodafone Idea Foundation
+Internship Program.
